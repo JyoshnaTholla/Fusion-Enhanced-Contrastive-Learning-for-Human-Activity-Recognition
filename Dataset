@@ -1,0 +1,25 @@
+# 📂 Dataset for HAR-TFCL
+
+This project uses **wearable sensor data** combined with **biometric features** to enable personalized Human Activity Recognition (HAR).  
+
+---
+
+## 📌 Dataset Details
+- **Sensors:** Accelerometer, Gyroscope  
+- **Biometrics:** Age, Height, etc
+- **Format:** CSV with timestamps, sensor readings, activity labels  
+- **Preprocessing:** Noise removal, normalization, segmentation into fixed windows, feature fusion  
+- **Train/Test Split:** 80% training, 20% testing  
+
+---
+
+## 🔒 Confidentiality
+The original dataset used in this project is **restricted and cannot be shared** due to privacy constraints.  
+
+---
+
+## 🌍 Public Alternatives
+To replicate experiments, you can use publicly available datasets such as:  
+- [UCI HAR Dataset]  
+- [WISDM Dataset] 
+- [Kaggle HAR Datasets](https://www.kaggle.com/datasets)  
