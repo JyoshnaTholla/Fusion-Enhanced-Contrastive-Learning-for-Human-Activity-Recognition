@@ -1,0 +1,34 @@
+🏗️ Model Architectures
+🔹 Proposed Model: TFCL (Temporal Fusion Contrastive Learning)
+
+Fusion Layer: Combines raw sensor signals (accelerometer, gyroscope) with biometric metadata (age, height, gait).
+
+Contrastive Learning: Learns robust representations from unlabeled sequences by pulling similar activities closer and pushing dissimilar ones apart.
+
+Temporal Modeling: Captures sequential dependencies in activities using temporal encoding.
+
+Personalization: Biometric fusion enables better generalization across different users.
+
+🔹 Baseline Models
+
+1. CNN (Convolutional Neural Network):
+
+Extracts spatial features from sensor time-series windows.
+
+Lightweight and efficient for real-time HAR.
+
+Limitation: Cannot model long temporal dependencies.
+
+2. LSTM (Long Short-Term Memory):
+
+Captures temporal patterns in sequential sensor data.
+
+Strong at modeling long-term dependencies.
+
+Limitation: Slower training compared to CNN.
+
+3. Classical ML Models:
+
+SVM, Random Forest, KNN trained on handcrafted statistical + frequency features.
+
+Provide strong baselines but underperform compared to deep learning models.
