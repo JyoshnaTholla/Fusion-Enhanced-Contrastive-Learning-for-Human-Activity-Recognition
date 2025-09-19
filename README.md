@@ -1,8 +1,6 @@
 # Fusion-Enhanced-Contrastive-Learning-for-Human-Activity-Recognition
  Developing a Temporal Fusion Contrastive Learning (TFCL) framework for Human Activity Recognition using wearable sensors. By fusing biometric features with accelerometer and gyroscope data, TFCL achieved superior accuracy over CNN, LSTM, and ML models, with a web app for real-time activity visualization.
 
-# 🏃‍♀️ Fusion-Enhanced Contrastive Learning for Human Activity Recognition (HAR)
-
 This project presents a **Temporal Fusion Contrastive Learning (TFCL) framework** for **Human Activity Recognition (HAR)** using wearable sensor data.  
 It integrates **biometric features** (e.g., age, height, gait) with **sensor data** (accelerometer, gyroscope) to enable **robust, personalized, and privacy-aware recognition**.  
 
